@@ -63,7 +63,7 @@ cp app/env.template app/.env
 3. You can interact with it and see all available endpoints at the documentation page: `http://localhost:8000/docs`
 
 ## Architecture overview
-![Goline Financial LLM agent architecture](./assets/my_screenshot.png)
+![Goline Financial LLM agent architecture](./assets/workflow_concept.png)
 
 ## Testing results
 Testing results can be found under `asset/test_results.csv`
