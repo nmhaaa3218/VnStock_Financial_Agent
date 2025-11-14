@@ -1,2 +1,5 @@
+# Virtual environment
+.vnev/
+
+# Environment variables
 .env
-.venv/
