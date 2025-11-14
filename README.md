@@ -27,7 +27,7 @@
 ## Capability
 
 ### Query routing
-The system automatically classifies queries as **simple** (single tool) or **complex** (multiple tools). Complex queries are decomposed into sub-queries, processed in parallel, and results are combined into a coherent answer.
+The system automatically classifies queries as **simple** (single tool) or **complex** (multiple tools). Complex queries are decomposed into sub-queries, processed in parallel, and the results are combined into a coherent answer.
 
 ### Tools usage
 Available tools for Vietnamese stock market analysis:
@@ -66,4 +66,6 @@ cp app/env.template app/.env
 ![Goline Financial LLM agent architecture](./assets/workflow_concept.png)
 
 ## Testing results
-Testing results can be found under `assets/test_results.csv`
+1. Testing results can be found under `assets/test_results.csv`
+2. Regarding questions 7,8, and 9, a rerun attempt is made manually with the same REST API to account for failed output.
+3. This suggests an issue with consistency, not capability, specifically for questions 7, 8, and 9. While the agent can handle these tasks, it doesn't do so reliably on every attempt. Further tuning is required to address this.
