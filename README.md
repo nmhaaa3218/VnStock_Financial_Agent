@@ -1,4 +1,4 @@
-# Goline LLM - Financial Agent by Manh Ha Nguyen
+# VnStock Financial Agent - A Financial Agent for the Vietnamese Stock Market by Manh Ha Nguyen
 
 ## Folder Structure
 ```
